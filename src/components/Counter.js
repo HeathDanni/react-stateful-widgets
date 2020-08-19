@@ -50,7 +50,8 @@ import React, { useState } from 'react'; /* STEP 0 */
 
 export default function Counter() {
   /* STEP 1 */
-
+  let number = 0;
+  let [count, setCount] = useState(number);
   const increment = () => {
     /* STEP 4 */
   };
