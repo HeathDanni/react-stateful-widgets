@@ -54,6 +54,7 @@ export default function Counter() {
   let [count, setCount] = useState(number);
   const increment = () => {
     /* STEP 4 */
+    setCount = count + 1;
   };
   const decrement = () => {
     /* STEP 5 */
