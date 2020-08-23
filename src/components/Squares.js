@@ -48,7 +48,7 @@ export default function Squares() {
     if (id !== activeSquare) {
       setActiveSquare(id);
     } else {
-      useState(null);
+      setActiveSquare(null);
     }
   };
 
